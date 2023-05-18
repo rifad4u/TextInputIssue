@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, SafeAreaView, TextInput, View } from "react-native";
+import { Button, Keyboard, SafeAreaView, TextInput, View } from "react-native";
 
 const App = () => {
 
@@ -27,7 +27,7 @@ const App = () => {
             <SafeAreaView >
                 <Button
                     title="Press me"
-                    onPress={() => { }}
+                    onPress={() => Keyboard.dismiss()}
                 />
             </SafeAreaView>
         </View>
